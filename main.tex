@@ -1,3 +1,9 @@
+% git add . 
+% git commit -m "update" 
+% git push origin main            =============> push to Github
+% git push overleaf main:master   =============> push to Overleaf
+
+
 \documentclass[wcp]{jmlr}
 
 \usepackage{amsmath, amssymb, booktabs, graphicx, float}
@@ -39,7 +45,7 @@ Daily adjusted closing prices are obtained from Yahoo Finance over the period 20
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{01_prices.png}
+\includegraphics[width=0.9\textwidth]{outputs/figures/01_prices.png}
 \caption{Asset price evolution}
 \label{fig:prices}
 \end{figure}
@@ -53,7 +59,7 @@ r_t = \log\left(\frac{P_t}{P_{t-1}}\right).
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{02_asset_returns.png}
+\includegraphics[width=0.9\textwidth]{outputs/figures/02_asset_returns.png}
 \caption{Daily log-returns}
 \label{fig:returns}
 \end{figure}
@@ -62,7 +68,7 @@ Figure \ref{fig:returns} highlights volatility clustering and fat-tailed behavio
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{03_cumulative_returns.png}
+\includegraphics[width=0.9\textwidth]{outputs/figures/03_cumulative_returns.png}
 \caption{Cumulative returns from log-returns}
 \label{fig:cum_returns}
 \end{figure}
@@ -229,7 +235,7 @@ The efficient frontier is approximated using simulated long-only portfolios. For
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{41_efficient_frontier.png}
+\includegraphics[width=0.9\textwidth]{outputs/figures/41_efficient_frontier.png}
 \caption{Simulated efficient frontier and optimized portfolios}
 \label{fig:frontier}
 \end{figure}
@@ -259,7 +265,7 @@ Thus, more risk-averse investors require greater expected return to accept the s
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{42_indifference_curves.png}
+\includegraphics[width=0.9\textwidth]{outputs/figures/42_indifference_curves.png}
 \caption{Investor indifference curves for different levels of risk aversion}
 \label{fig:indifference}
 \end{figure}
@@ -301,35 +307,35 @@ The weight patterns highlight the economic logic of each optimizer. The minimum-
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.72\textwidth]{11_min_variance_weights.png}
+\includegraphics[width=0.72\textwidth]{outputs/figures/11_min_variance_weights.png}
 \caption{Minimum-variance portfolio weights}
 \label{fig:minvar_weights}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.72\textwidth]{12_max_return_weights.png}
+\includegraphics[width=0.72\textwidth]{outputs/figures/12_max_return_weights.png}
 \caption{Maximum-return portfolio weights}
 \label{fig:maxret_weights}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.72\textwidth]{13_dollar_neutral_random_search_weights.png}
+\includegraphics[width=0.72\textwidth]{outputs/figures/13_dollar_neutral_random_search_weights.png}
 \caption{Dollar-neutral random search portfolio weights}
 \label{fig:dn_weights}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.72\textwidth]{14_risk_parity_weights.png}
+\includegraphics[width=0.72\textwidth]{outputs/figures/14_risk_parity_weights.png}
 \caption{Risk-parity portfolio weights}
 \label{fig:rp_weights}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.72\textwidth]{15_tangency_weights.png}
+\includegraphics[width=0.72\textwidth]{outputs/figures/15_tangency_weights.png}
 \caption{Tangency portfolio weights}
 \label{fig:tangency_weights}
 \end{figure}
@@ -342,7 +348,7 @@ Figure \ref{fig:risk_return} compares the optimized portfolios in mean-standard 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{40_portfolio_risk_return_comparison.png}
+\includegraphics[width=0.9\textwidth]{outputs/figures/40_portfolio_risk_return_comparison.png}
 \caption{Portfolio risk-return comparison}
 \label{fig:risk_return}
 \end{figure}
@@ -393,28 +399,28 @@ The distributional plots provide an additional layer of interpretation beyond me
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{31_min_variance_density.png}
+\includegraphics[width=0.8\textwidth]{outputs/figures/31_min_variance_density.png}
 \caption{Minimum-variance portfolio return density}
 \label{fig:minvar_density}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{32_max_return_density.png}
+\includegraphics[width=0.8\textwidth]{outputs/figures/32_max_return_density.png}
 \caption{Maximum-return portfolio return density}
 \label{fig:maxret_density}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{33_dollar_neutral_random_search_density.png}
+\includegraphics[width=0.8\textwidth]{outputs/figures/33_dollar_neutral_random_search_density.png}
 \caption{Dollar-neutral portfolio return density}
 \label{fig:dn_density}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{34_risk_parity_density.png}
+\includegraphics[width=0.8\textwidth]{outputs/figures/34_risk_parity_density.png}
 \caption{Risk-parity portfolio return density}
 \label{fig:rp_density}
 \end{figure}
@@ -423,28 +429,28 @@ Figures \ref{fig:minvar_density}--\ref{fig:rp_density} show that the diversified
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{22_max_return_histogram.png}
+\includegraphics[width=0.8\textwidth]{outputs/figures/22_max_return_histogram.png}
 \caption{Maximum-return portfolio return histogram}
 \label{fig:maxret_hist}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{23_dollar_neutral_random_search_histogram.png}
+\includegraphics[width=0.8\textwidth]{outputs/figures/23_dollar_neutral_random_search_histogram.png}
 \caption{Dollar-neutral random search portfolio return histogram}
 \label{fig:dn_hist}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{24_risk_parity_histogram.png}
+\includegraphics[width=0.8\textwidth]{outputs/figures/24_risk_parity_histogram.png}
 \caption{Risk-parity portfolio return histogram}
 \label{fig:rp_hist}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{25_tangency_histogram.png}
+\includegraphics[width=0.8\textwidth]{outputs/figures/25_tangency_histogram.png}
 \caption{Tangency portfolio return histogram}
 \label{fig:tangency_hist}
 \end{figure}
