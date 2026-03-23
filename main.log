@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2026.3.23)  23 MAR 2026 02:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2026.3.23)  23 MAR 2026 02:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -469,9 +469,41 @@ Package hyperref Info: Link coloring ON on input line 20.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (10.68109pt too wide) in paragraph at lines 24--26
- \OT1/cmr/m/n/10 turns. We con-struct and an-a-lyze mul-ti-ple port-fo-lio strate-gies, in-clud-ing minimum-variance, maximum- 
- []
+c:/Users/urosm/OneDrive/Desktop/portfolio-optimization/main.tex:24: LaTeX Error: Environment abstract - TEST undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \begin{abstract - TEST}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/urosm/OneDrive/Desktop/portfolio-optimization/main.tex:28: Extra }, or forgotten \endgroup.
+\endabstract ->\par \egroup 
+                            \vskip 0.25ex
+l.28 \end{abstract}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+c:/Users/urosm/OneDrive/Desktop/portfolio-optimization/main.tex:28: LaTeX Error: \begin{document} ended by \end{abstract}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \end{abstract}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 <outputs/figures/01_prices.png, id=87, 860.013pt x 389.17395pt>
 File: outputs/figures/01_prices.png Graphic file (type png)
@@ -585,174 +617,4 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.328 
-       <./outputs/figures/11_min_variance_weights.png> <./outputs/figures/12_max_return_weights.png>]
-<outputs/figures/14_risk_parity_weights.png, id=197, 607.068pt x 338.58495pt>
-File: outputs/figures/14_risk_parity_weights.png Graphic file (type png)
-<use outputs/figures/14_risk_parity_weights.png>
-Package pdftex.def Info: outputs/figures/14_risk_parity_weights.png  used on input line 331.
-(pdftex.def)             Requested size: 338.22418pt x 188.64015pt.
-<outputs/figures/15_tangency_weights.png, id=198, 607.068pt x 338.58495pt>
-File: outputs/figures/15_tangency_weights.png Graphic file (type png)
-<use outputs/figures/15_tangency_weights.png>
-Package pdftex.def Info: outputs/figures/15_tangency_weights.png  used on input line 338.
-(pdftex.def)             Requested size: 338.22418pt x 188.64015pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9
-pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.342 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.342 
-       <./outputs/figures/13_dollar_neutral_random_search_weights.png> <./outputs/figures/14_risk_parity_weights.png>]
-<outputs/figures/40_portfolio_risk_return_comparison.png, id=212, 606.3453pt x 389.17395pt>
-File: outputs/figures/40_portfolio_risk_return_comparison.png Graphic file (type png)
-<use outputs/figures/40_portfolio_risk_return_comparison.png>
-Package pdftex.def Info: outputs/figures/40_portfolio_risk_return_comparison.png  used on input line 351.
-(pdftex.def)             Requested size: 422.77664pt x 271.351pt.
-
-Overfull \hbox (13.85718pt too wide) in paragraph at lines 361--372
- [][] 
- []
-
-[10
-pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.373 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.373 
-       <./outputs/figures/15_tangency_weights.png> <./outputs/figures/40_portfolio_risk_return_comparison.png>]
-<outputs/figures/31_min_variance_density.png, id=225, 642.11896pt x 353.03896pt>
-File: outputs/figures/31_min_variance_density.png Graphic file (type png)
-<use outputs/figures/31_min_variance_density.png>
-Package pdftex.def Info: outputs/figures/31_min_variance_density.png  used on input line 402.
-(pdftex.def)             Requested size: 375.80544pt x 206.62122pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11
-pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.406 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.406 
-      ]
-<outputs/figures/32_max_return_density.png, id=231, 643.203pt x 353.03896pt>
-File: outputs/figures/32_max_return_density.png Graphic file (type png)
-<use outputs/figures/32_max_return_density.png>
-Package pdftex.def Info: outputs/figures/32_max_return_density.png  used on input line 409.
-(pdftex.def)             Requested size: 375.80544pt x 206.27107pt.
-<outputs/figures/33_dollar_neutral_random_search_density.png, id=232, 641.0349pt x 353.03896pt>
-File: outputs/figures/33_dollar_neutral_random_search_density.png Graphic file (type png)
-<use outputs/figures/33_dollar_neutral_random_search_density.png>
-Package pdftex.def Info: outputs/figures/33_dollar_neutral_random_search_density.png  used on input line 416.
-(pdftex.def)             Requested size: 375.80544pt x 206.96599pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12
-pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.420 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.420 
-       <./outputs/figures/31_min_variance_density.png> <./outputs/figures/32_max_return_density.png>]
-<outputs/figures/34_risk_parity_density.png, id=241, 642.84164pt x 353.03896pt>
-File: outputs/figures/34_risk_parity_density.png Graphic file (type png)
-<use outputs/figures/34_risk_parity_density.png>
-Package pdftex.def Info: outputs/figures/34_risk_parity_density.png  used on input line 423.
-(pdftex.def)             Requested size: 375.80544pt x 206.39497pt.
-<outputs/figures/22_max_return_histogram.png, id=244, 643.203pt x 353.03896pt>
-File: outputs/figures/22_max_return_histogram.png Graphic file (type png)
-<use outputs/figures/22_max_return_histogram.png>
-Package pdftex.def Info: outputs/figures/22_max_return_histogram.png  used on input line 432.
-(pdftex.def)             Requested size: 375.80544pt x 206.27107pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13
-pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.436 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.436 
-       <./outputs/figures/33_dollar_neutral_random_search_density.png> <./outputs/figures/34_risk_parity_density.png>]
-<outputs/figures/23_dollar_neutral_random_search_histogram.png, id=254, 640.67355pt x 353.03896pt>
-File: outputs/figures/23_dollar_neutral_random_search_histogram.png Graphic file (type png)
-<use outputs/figures/23_dollar_neutral_random_search_histogram.png>
-Package pdftex.def Info: outputs/figures/23_dollar_neutral_random_search_histogram.png  used on input line 439.
-(pdftex.def)             Requested size: 375.80544pt x 207.08989pt.
-<outputs/figures/24_risk_parity_histogram.png, id=255, 642.84164pt x 353.03896pt>
-File: outputs/figures/24_risk_parity_histogram.png Graphic file (type png)
-<use outputs/figures/24_risk_parity_histogram.png>
-Package pdftex.def Info: outputs/figures/24_risk_parity_histogram.png  used on input line 446.
-(pdftex.def)             Requested size: 375.80544pt x 206.39497pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14
-pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.450 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.450 
-       <./outputs/figures/22_max_return_histogram.png> <./outputs/figures/23_dollar_neutral_random_search_histogram.png>]
-<outputs/figures/25_tangency_histogram.png, id=264, 642.84164pt x 353.03896pt>
-File: outputs/figures/25_tangency_histogram.png Graphic file (type png)
-<use outputs/figures/25_tangency_histogram.png>
-Package pdftex.def Info: outputs/figures/25_tangency_histogram.png  used on input line 453.
-(pdftex.def)             Requested size: 375.80544pt x 206.39497pt.
- [15
-pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.467 \end{equation}
-                    
-pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.467 \end{equation}
-                     <./outputs/figures/24_risk_parity_histogram.png> <./outputs/figures/25_tangency_histogram.png>] [16] [17] (main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0AB10F4C57B8A65A7D6E43D596029AA3;4040.
- ) 
-Here is how much of TeX's memory you used:
- 13666 strings out of 476326
- 217483 string characters out of 5787722
- 1868660 words of memory out of 5000000
- 33802 multiletter control sequences out of 15000+600000
- 523025 words of font info for 72 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 90i,10n,90p,964b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\urosm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk> <C:\Users\urosm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/urosm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/urosm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/urosm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/urosm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/urosm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/urosm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/urosm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/urosm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/urosm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/urosm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/urosm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (17 pages, 2229351 bytes).
-PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 264 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+       <./outputs/figures/11_min_variance_weights.png> <./outputs/figures/12_max_return_w
